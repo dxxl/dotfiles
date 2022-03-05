@@ -1,0 +1,43 @@
+# terminal, close windows and session
+alt + shift + {Return,c,q}
+    	{urxvt, berryc window_close, berryc quit}
+
+# move around but keys </3
+alt + {h,j,k,l}
+       berryc window_move {-50 0, 0 50, 0 -50, 50 0}
+
+# resize but keys </3
+alt + shift + {h,j,k,l}
+       berryc window_resize {-50 0, 0 50, 0 -50, 50 0}
+
+# layout style
+alt + s; {f,m}
+	{berryc fullscreen,\
+	 berryc window_monocle}
+
+# switch workspace
+alt + {1,2,3,4,5,6}
+	berryc switch_workspace {0,1,2,3,4,5}	
+
+# send to workspace
+alt + shift + {1,2,3,4,5,6}
+	berryc send_to_workspace {0,1,2,3,4,5}
+
+# dmenu
+alt + p
+     dmenu_run
+
+# terminal functions
+alt + w; {r,n,N,a,p}
+     {urxvt -e ranger,\
+      urxvt -e ncmpcpp,\
+      urxvt -e nmtui,\
+      urxvt -e alsamixer,\
+      urxvt -e pulsemixer}
+
+# scripts
+alt + e; {k,i,m,u}
+     {./.scripts/shot.sh,\
+      ./.scripts/off.sh,\
+      ./.scripts/mountmenu.sh,\
+      ./.scripts/umountmenu.sh}
