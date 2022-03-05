@@ -1,0 +1,69 @@
+URxvt.font: xft:JetBrainsMono:style=regular:pixelsize=14
+
+URxvt.scrollBar: false
+URxvt.scrollBar_right: false
+URxvt.internalBorder: 26
+URxvt.cursorBlink: true
+URxvt.cursorUnderline: true
+URxvt.cursorColor: #343b58
+URxvt.letterspace: -1
+
+!tokyolight
+!*.color0: #d5d6db
+!*.color1: #8c4351
+!*.color2: #8f5e15
+!*.color3: #485e30
+!*.color4: #34548a
+!*.color5: #5a4a78
+!*.color6: #166775
+!*.color7: #343b58
+!*.color8: #9699a3
+!*.color9: #8c4351
+!*.color10: #8f5e15
+!*.color11: #485e30
+!*.color12: #0f4b6e
+!*.color13: #5a4a78
+!*.color14: #166775
+!*.color15: #343b58
+!*.background: #d5d6db
+!*.foreground: #343b58
+
+!gruvboxlight
+*.color0: #fbf1c7
+*.color1: #cc241d
+*.color2: #98971a
+*.color3: #d79921
+*.color4: #458588
+*.color5: #b16286
+*.color6: #689d6a
+*.color7: #7c6f64
+*.color8: #928374
+*.color9: #9d0006
+*.color10: #79740e
+*.color11: #b57614
+*.color12: #076678
+*.color13: #8f3f71
+*.color14: #427b58
+*.color15: #3c3836
+*.background: #fbf1c7
+*.foreground: #3c3036
+
+!gruvboxdark
+!*.color0:
+!*.color1:
+!*.color2:
+!*.color3:
+!*.color4:
+!*.color5:
+!*.color6:
+!*.color7:
+!*.color8:
+!*.color9:
+!*.color10:
+!*.color11:
+!*.color12:
+!*.color13:
+!*.color14:
+!*.color15:
+!*.background:
+!*.foreground:
