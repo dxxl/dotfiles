@@ -1,0 +1,144 @@
+ncmpcpp_directory = ~/.ncmpcpp/
+lyrics_directory = ~/.lyrics/
+mpd_music_dir = "~/music/"
+
+mpd_host = localhost
+mpd_port = 6600
+mpd_connection_timeout = 5
+
+mpd_crossfade_time = 5
+
+#visualizer_data_source = /tmp/mpd.fifo
+visualizer_output_name = Visualizer feed
+
+## If you set format to 44100:16:2, make it 'yes'.
+#visualizer_in_stereo = yes
+#visualizer_sync_interval = 0
+
+# Available values: spectrum, wave, wave_filled, ellipse.
+#visualizer_type = spectrum
+#visualizer_fps = 60
+#visualizer_autoscale = no
+#visualizer_look = ●▮
+#visualizer_color = black, white
+#visualizer_spectrum_smooth_look = yes
+#visualizer_spectrum_dft_size = 2
+#visualizer_spectrum_gain = 10
+#visualizer_spectrum_hz_min = 20
+#visualizer_spectrum_hz_max = 20000
+
+system_encoding = ""
+playlist_disable_highlight_delay = 5
+#message_delay_time = 5
+
+song_list_format = " $8%a - $8%t $R$8│ $R$8%l"
+song_status_format = {{%a{ "%b"{ (%y)}} - }{%t}}|{%f}
+song_library_format = {%n - }{%t}|{%f}
+alternative_header_first_line_format = $b$8$aqqu$/a$8 {%t}|{%f} $8$atqq$/a$8$/b
+alternative_header_second_line_format = {{$4$b%a$/b$9}{ - $7%b$9}{ ($4%y$9)}}|{%D}
+current_item_prefix = $(white)$r
+current_item_suffix = $/r$(end)
+current_item_inactive_column_prefix = $(white)$r
+current_item_inactive_column_suffix = $/r$(end)
+now_playing_prefix = "$b$8▶▷ "
+now_playing_suffix = $/b
+browser_playlist_prefix = "$8playlist$8 "
+selected_item_prefix = $8
+selected_item_suffix = $8
+modified_item_prefix = $8> $8
+
+#song_window_title_format = { $8%a │} {$8%t $R$8│} {$R$3%b} 
+
+browser_sort_mode = type
+browser_sort_format = {%a - }{%t}|{%f} {%l}
+
+song_columns_list_format = (20)[]{a} (6f)[white]{NE} (50)[white]{t|f:Title} (20)[white]{b} (7f)[white]{l}
+
+#execute_on_song_change = ""
+#execute_on_player_state_change = ""
+playlist_show_mpd_host = no
+playlist_show_remaining_time = no
+playlist_shorten_total_times = no
+playlist_separate_albums = no
+
+playlist_display_mode = classic
+browser_display_mode = columns
+discard_colors_if_item_is_selected = yes
+show_duplicate_tags = yes
+incremental_seeking = yes
+seek_time = 1
+volume_change_step = 2
+#autocenter_mode = no
+#centered_cursor = no
+
+progressbar_look ="-▷-"
+user_interface = classic
+data_fetching_delay = yes
+media_library_primary_tag = artist
+media_library_albums_split_by_date = yes
+media_library_hide_album_dates = no
+default_find_mode = wrapped
+default_tag_editor_pattern = %n - %t
+header_visibility = no
+statusbar_visibility = yes
+
+#connected_message_on_startup = yes
+titles_visibility = no
+#header_text_scrolling = yes
+#cyclic_scrolling = no
+lyrics_fetchers = azlyrics, genius, musixmatch, sing365, metrolyrics, justsomelyrics, jahlyrics, plyrics, tekstowo, zeneszoveg, internet
+follow_now_playing_lyrics = no
+fetch_lyrics_for_current_song_in_background = no
+store_lyrics_in_song_dir = no
+#generate_win32_compatible_filenames = yes
+#allow_for_physical_item_deletion = no
+
+lastfm_preferred_language = en
+#space_add_mode = add_remove
+
+screen_switcher_mode = browser
+
+startup_screen = playlist
+#startup_slave_screen = "browser"
+#startup_slave_screen_focus = no
+locked_screen_width_part = 50
+ask_for_locked_screen_width_part = yes
+jump_to_now_playing_song_at_start = yes
+ask_before_clearing_playlists = yes
+display_volume_level = yes
+#display_bitrate = no
+display_remaining_time = no
+#regular_expressions = perl
+#ignore_leading_the = no
+
+#ignore_diacritics = no
+#block_search_constraints_change_if_items_found = yes
+mouse_support = yes
+mouse_list_scroll_whole_page = no
+#lines_scrolled = 5
+#empty_tag_marker = <empty>
+#tags_separator = " | "
+tag_editor_extended_numeration = no
+
+enable_window_title = yes
+
+external_editor = vim
+use_console_editor = yes
+
+colors_enabled = yes
+empty_tag_color = black:b
+header_window_color = white
+volume_color = white
+state_line_color = white
+state_flags_color = white:b
+main_window_color = white
+color1 = white
+color2 = white
+progressbar_elapsed_color = white
+statusbar_color = white
+statusbar_time_color = white
+player_state_color = white
+alternative_ui_separator_color = white
+window_border_color = white
+active_window_border = white
+
