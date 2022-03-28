@@ -6,5 +6,5 @@ well i havent finished the anime yet but i noticed no one has ever tried making 
 
 oh and yeah, im not guaranteed that using what i put here will work, you might have to modify more stuff
 
-![alt.text](https://github.com/dxxl/berrywm/blob/main/22-03-05-13:24:29.png)
-![alt.text](https://github.com/dxxl/berrywm/blob/main/22-03-05-13:21:47.png)
+![alt.text](https://github.com/dxxl/berrywm/blob/main/SNIP-03-28-2022-09:03:43.png.png)
+![alt.text](https://github.com/dxxl/berrywm/blob/main/SNIP-03-28-2022-09:04:46.png)
