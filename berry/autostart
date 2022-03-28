@@ -1,0 +1,27 @@
+#!/bin/bash
+
+# experimental
+berryc save_monitor 0 2
+berryc save_monitor 1 2
+berryc save_monitor 2 2
+berryc save_monitor 3 1
+berryc save_monitor 4 1
+berryc save_monitor 6 1
+
+# Set decoration geometry
+berryc border_width       0
+berryc inner_border_width 0
+berryc title_height       32
+berryc edge_gap 70 30 30 30
+
+# Set decoration colors
+berryc focus_color         fbf1c7
+berryc unfocus_color       fbf1c7
+berryc inner_focus_color   282828 
+berryc inner_unfocus_color d5c4a1
+
+# Other options
+berryc smart_place "true"
+berryc draw_text   "false"
+berryc edge_lock   "false"
+berryc focus_follows_pointer "false"
